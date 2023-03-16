@@ -1,0 +1,26 @@
+.card {
+  .img {
+    height: 21rem;
+    width: 18rem;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      height: 2rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+    .button {
+      margin-top: 0.5rem;
+      .left {
+        margin-right: 0.8rem;
+        font-size: 0.8rem;
+      }
+      .right {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

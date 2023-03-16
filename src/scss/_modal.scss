@@ -1,0 +1,26 @@
+.modal-content {
+  .modal-body {
+    display: flex;
+    .box {
+      width: 20rem;
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 19rem;
+        height: 23rem;
+      }
+      h5 {
+        margin-top: 2rem;
+        width: 17rem;
+      }
+    }
+    p {
+      height: 30rem;
+      margin-left: 2rem;
+      margin-right: 1rem;
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      overflow: auto;
+    }
+  }
+}
